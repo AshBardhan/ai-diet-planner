@@ -1,0 +1,60 @@
+{
+  "Breakfast": [
+    "Overnight oats",
+    "Greek yogurt with berries",
+    "Smoothie bowl with fruits, nuts and seeds",
+    "Whole-grain toast with peanut butter and banana",
+    "Tofu and vegetable scramble",
+    "Avocado and egg toast",
+    "Chia seed pudding with fruit",
+    "Cottage cheese with fresh fruit",
+    "Breakfast burrito with beans and veggies",
+    "Veggie omelet with whole-grain toast"
+  ],
+  "Lunch": [
+    "Grilled tofu",
+    "Grilled fish",
+    "Quinoa and black bean salad",
+    "Chickpea and vegetable stir-fry",
+    "Grilled portobello mushroom",
+    "Egg salad sandwich",
+    "Vegetable and hummus wrap",
+    "Black bean burger",
+    "Roasted vegetables with lentils"
+  ],
+  "Post-Workout": [
+    "Energy Bar",
+    "Coconut water",
+    "Banana smoothie with almond milk",
+    "Cherry juice",
+    "Iced matcha latte with almond milk",
+    "Watermelon juice with chia seeds",
+    "Pineapple and ginger smoothie",
+    "Almond butter and banana smoothie",
+    "Orange and turmeric smoothie"
+  ],
+  "Pre-Workout": [
+    "Apple slices with peanut butter",
+    "Whole-grain toast with avocado",
+    "Greek yogurt with berries and honey",
+    "Smoothie bowl with fruits and nuts",
+    "Hard-boiled eggs with whole-grain crackers",
+    "Oatmeal with nuts and fruit",
+    "Veggie sticks with hummus",
+    "Energy bites made with dates and nuts",
+    "Cottage cheese with sliced fruit",
+    "Whole-grain cereal with almond milk"
+  ],
+  "Dinner": [
+    "Grilled fish",
+    "Tofu stir-fry with vegetables",
+    "Vegetable and chickpea curry",
+    "Eggplant parmesan",
+    "Grilled portobello mushroom burger",
+    "Lentil soup with whole-grain bread",
+    "Quinoa and black bean salad",
+    "Grilled salmon with asparagus",
+    "Black bean and vegetable enchiladas",
+    "Roasted vegetables with hummus"
+  ]
+}

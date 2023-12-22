@@ -1,0 +1,304 @@
+{
+    "Monday": {
+      "Breakfast": {
+        "foods": [
+          "Oats with Honey",
+          "4 Boiled Eggs",
+          "2 slices of whole wheat bread",
+          "1 glass of skimmed milk"
+        ],
+        "totalCalories" : 770
+      },
+      "Pre-Workout": {
+        "foods": [
+          "2 Banana",
+          "1 cup of yogurt"
+        ],
+        "totalCalories" : 270
+      },
+      "Lunch": {
+        "foods": [
+          "1 cup of brown rice",
+          "2 cups of vegetable curry",
+          "1 cup of dal",
+          "1 glass of buttermilk"
+        ],
+        "totalCalories" : 720
+      },
+      "Post-Workout": {
+        "foods": [
+          "1 cup of yogurt",
+          "2 slices of whole wheat bread",
+          "5 boiled egg"
+        ],
+        "totalCalories" : 480
+      },
+      "Dinner": {
+        "foods": [
+          "2 boiled potatoes",
+          "150g grilled chicken",
+          "1 cup of mixed salad",
+          "1 glass of buttermilk"
+        ],
+        "totalCalories" : 790
+      }
+    },
+    "Tuesday": {
+      "Breakfast": {
+        "foods": [
+          "2 cup of oats porridge",
+          "2 cup of skimmed milk",
+          "2 Boiled Eggs",
+          "1 glass of orange juice"
+        ],
+        "totalCalories" : 790
+      },
+      "Pre-Workout": {
+        "foods": [
+          "2 Apple",
+          "1 cup of yogurt"
+        ],
+        "totalCalories" : 240
+      },
+      "Lunch": {
+        "foods": [
+          "2 cups of brown rice",
+          "2 Vegetable and hummus wrap",
+          "1 cup of dal",
+          "1 glass of buttermilk"
+        ],
+        "totalCalories" : 820
+      },
+      "Post-Workout": {
+        "foods": [
+          "1 glass of Watermelon juice",
+          "2 slices of whole wheat bread",
+          "5 boiled eggs"
+        ],
+        "totalCalories" : 490
+      },
+      "Dinner": {
+        "foods": [
+          "2 boiled potatoes",
+          "150g grilled chicken",
+          "1 cup of fried rice",
+          "2 cup of mixed salad"
+        ],
+        "totalCalories" : 810
+      }
+    },
+    "Wednesday": {
+      "Breakfast": {
+        "foods": [
+          "Avocado and egg toast",
+          "2 Scrambled Eggs",
+          "2 slices of whole wheat bread",
+          "1 glass of mixed fruid juice"
+        ],
+        "totalCalories" : 760
+      },
+      "Pre-Workout": {
+        "foods": [
+          "Oatmeal with nuts and fruit",
+          "1 cup of yogurt"
+        ],
+        "totalCalories" : 300
+      },
+      "Lunch": {
+        "foods": [
+          "1 cup of brown rice",
+          "3 cups of vegetable curry",
+          "1 cup of dal",
+          "Quinoa and black bean salad"
+        ],
+        "totalCalories" : 770
+      },
+      "Post-Workout": {
+        "foods": [
+          "1 Energy bar",
+          "5 boiled eggs"
+        ],
+        "totalCalories" : 550
+      },
+      "Dinner": {
+        "foods": [
+          "2 boiled potatoes",
+          "150g grilled chicken",
+          "1 cup of mixed salad"
+        ],
+        "totalCalories" : 710
+      }
+    },
+    "Thursday": {
+      "Breakfast": {
+        "foods": [
+          "3 cup of oats porridge",
+          "3 Scrambled Eggs",
+          "1 glass of orange juice"
+        ],
+        "totalCalories" : 850
+      },
+      "Pre-Workout": {
+        "foods": [
+          "1 glass of almond milk",
+          "3 Bananas"
+        ],
+        "totalCalories" : 320
+      },
+      "Lunch": {
+        "foods": [
+          "2 cups of brown rice",
+          "2 cups of vegetable curry",
+          "150g grilled tofu",
+          "1 glass of mixed fruid juice"
+        ],
+        "totalCalories" : 740
+      },
+      "Post-Workout": {
+        "foods": [
+          "1 cup of yogurt",
+          "2 slices of whole wheat bread",
+          "5 boiled eggs"
+        ],
+        "totalCalories" : 450
+      },
+      "Dinner": {
+        "foods": [
+          "2 boiled potatoes",
+          "150g grilled chicken",
+          "1 cup of mixed salad",
+          "1 glass of buttermilk"
+        ],
+        "totalCalories" : 750
+      }
+    },
+    "Friday": {
+      "Breakfast": {
+        "foods": [
+          "Oats with Honey",
+          "4 Boiled Eggs",
+          "2 slices of whole wheat bread",
+          "1 glass of skimmed milk"
+        ],
+        "totalCalories" : 750
+      },
+      "Pre-Workout": {
+        "foods": [
+          "1 Energy bar",
+          "1 cup of yogurt"
+        ],
+        "totalCalories" : 340
+      },
+      "Lunch": {
+        "foods": [
+          "2 cups of brown rice",
+          "2 cups of vegetable curry",
+          "1 cup of dal",
+          "1 glass of buttermilk"
+        ],
+        "totalCalories" : 720
+      },
+      "Post-Workout": {
+        "foods": [
+          "1 cup of yogurt",
+          "2 slices of whole wheat bread",
+          "4 boiled eggs"
+        ],
+        "totalCalories" : 420
+      },
+      "Dinner": {
+        "foods": [
+          "2 boiled potatoes",
+          "200g grilled chicken",
+          "1 cup of mixed salad",
+          "1 glass of mixed fruid juice"
+        ],
+        "totalCalories" : 850
+      }
+    },
+    "Saturday": {
+      "Breakfast": {
+        "foods": [
+          "1 cup of oats porridge",
+          "150g chicken sausage",
+          "3 Boiled Eggs",
+          "1 glass of orange juice"
+        ],
+        "totalCalories" : 750
+      },
+      "Pre-Workout": {
+        "foods": [
+          "2 Apples",
+          "1 cup of yogurt"
+        ],
+        "totalCalories" : 240
+      },
+      "Lunch": {
+        "foods": [
+          "2 cups of brown rice",
+          "Chickpea and vegetable stir-fry",
+          "1 glass of soy milk"
+        ],
+        "totalCalories" : 820
+      },
+      "Post-Workout": {
+        "foods": [
+          "1 cup of yogurt",
+          "2 slices of whole wheat bread",
+          "5 boiled eggs"
+        ],
+        "totalCalories" : 450
+      },
+      "Dinner": {
+        "foods": [
+          "2 boiled potatoes",
+          "150g grilled chicken",
+          "1 cup of mixed salad",
+          "1 glass of mixed fruid juice"
+        ],
+        "totalCalories" : 750
+      }
+    },
+    "Sunday": {
+      "Breakfast": {
+        "foods": [
+          "Oats with Honey",
+          "1 Boiled Egg",
+          "2 Egg salad sandwich",
+          "1 glass of skimmed milk"
+        ],
+        "totalCalories" : 710
+      },
+      "Pre-Workout": {
+        "foods": [
+          "3 Bananas",
+          "1 cup of yogurt"
+        ],
+        "totalCalories" : 280
+      },
+      "Lunch": {
+        "foods": [
+          "1 cup of brown rice",
+          "3 cups of vegetable curry",
+          "1 glass of buttermilk"
+        ],
+        "totalCalories" : 750
+      },
+      "Post-Workout": {
+        "foods": [
+          "1 glass of iced tea",
+          "3 slices of whole wheat bread",
+          "4 boiled eggs"
+        ],
+        "totalCalories" : 590
+      },
+      "Dinner": {
+        "foods": [
+          "200g grilled tofu",
+          "Roasted vegetables with hummus",
+          "1 glass of mixed fruid juice"
+        ],
+        "totalCalories" : 750
+      }
+    }
+  }
