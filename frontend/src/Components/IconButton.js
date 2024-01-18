@@ -9,10 +9,7 @@ export default function IconButton({type = 'button', theme = '', isHoverable = f
 		return className;
 	};
 	return (
-		<button
-			type={type}
-			onClick={handleClick}
-			className={setClassname()}>
+		<button type={type} onClick={handleClick} className={setClassname()}>
 			{children}
 		</button>
 	);

@@ -10,10 +10,7 @@ export default function Button({type = 'button', size = '', theme = '', isInvert
 		return className;
 	};
 	return (
-		<button
-			type={type}
-			onClick={handleClick}
-			className={setClassname()}>
+		<button type={type} onClick={handleClick} className={setClassname()}>
 			{label}
 		</button>
 	);
