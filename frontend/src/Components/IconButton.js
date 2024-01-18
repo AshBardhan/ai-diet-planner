@@ -1,5 +1,5 @@
 import React from 'react';
-import './IconButton.css';
+import './IconButton.scss';
 
 export default function IconButton({type = 'button', theme = '', isHoverable = false, children, handleClick}) {
 	const setClassname = () => {
