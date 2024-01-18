@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+import './Button.scss';
 
 export default function Button({type = 'button', size = '', theme = '', isInverted = false, label, handleClick}) {
 	const setClassname = () => {

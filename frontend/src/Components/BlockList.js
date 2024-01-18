@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlockList.css';
+import './BlockList.scss';
 
 export default function BlockList({themes = [], list}) {
 	const setClassname = () => {
