@@ -1,0 +1,61 @@
+.checkbox-radio {
+	position: relative;
+
+	input {
+		display: none;
+
+		&[disabled] + label {
+			opacity: 0.5 !important;
+			pointer-events: none;
+			cursor: not-allowed;
+		}
+
+		&:checked + label {
+			.checkbox-radio-icon--default {
+				display: none;
+			}
+
+			.checkbox-radio-icon--selected {
+				display: inline-flex;
+			}
+		}
+	}
+}
+
+.checkbox-radio-label {
+	display: inline-flex;
+	color: #1f2532;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 30px;
+}
+
+.checkbox-radio-label--secondary {
+	font-weight: 500;
+}
+
+.checkbox-radio-label--small {
+	font-size: 12px;
+	margin-left: 25px;
+}
+
+.checkbox-radio-button {
+	display: inline-flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.checkbox-radio-icon {
+	color: #a6aeb9;
+}
+
+.checkbox-radio-icon--default {
+	display: inline-flex;
+}
+
+.checkbox-radio-icon--selected {
+	color: #3892e3;
+	display: none;
+}
