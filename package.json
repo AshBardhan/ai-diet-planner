@@ -14,7 +14,7 @@
 		}
 	},
 	"lint-staged": {
-		"frontend/src/**/*.{js,css}": [
+		"frontend/src/**/*.{js,scss,css}": [
 			"prettier --write --ignore-unknown"
 		]
 	},
