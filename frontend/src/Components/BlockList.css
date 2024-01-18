@@ -1,53 +1,54 @@
 .block-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .block-list li {
-  border-bottom: 1px solid #d9dde1;
-  padding: 10px;
-  background: transparent;
-  -webkit-user-select: none;
-          user-select: none;
+	border-bottom: 1px solid #d9dde1;
+	padding: 10px;
+	background: transparent;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .block-list li:not(.no-hover) {
-  cursor: pointer;
+	cursor: pointer;
 }
 
-.block-list li.hovered, .block-list li:hover:not(.no-hover):not(.selected) {
-  background: #eeeff1;
+.block-list li.hovered,
+.block-list li:hover:not(.no-hover):not(.selected) {
+	background: #eeeff1;
 }
 
 .block-list li.selected {
-  background-color: #e5f1fb;
+	background-color: #e5f1fb;
 }
 
 .block-list li.selected:hover:not(.no-hover) {
-  background-color: #b8d8f5;
+	background-color: #b8d8f5;
 }
 
 .block-list li.highlighted {
-  background-color: #b8d8f5;
+	background-color: #b8d8f5;
 }
 
 .block-list li:last-child {
-  border-bottom: none;
+	border-bottom: none;
 }
 
 .block-list--gray li:hover:not(.no-hover):not(.selected) {
-  background: #e5e6e9;
+	background: #e5e6e9;
 }
 
 .block-list--gray li.selected {
-  background-color: #fff;
+	background-color: #fff;
 }
 
 .block-list--gray li.selected:hover:not(.no-hover) {
-  background-color: #fff;
+	background-color: #fff;
 }
 
 .block-list--borderless li:not(.block-list-group-heading) {
-  border-bottom: none;
+	border-bottom: none;
 }
