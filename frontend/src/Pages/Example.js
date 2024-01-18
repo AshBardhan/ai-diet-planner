@@ -52,19 +52,8 @@ const Example = () => {
 		<>
 			<Tile themes={['shadow']}>
 				<form onSubmit={handleSubmit}>
-					<Input
-						label="Prompt"
-						id="hello"
-						value={prompt}
-						onChange={handleChange}
-					/>
-					<Button
-						type="submit"
-						theme="primary"
-						isInverted="true"
-						label="Submit"
-						handleClick={handleClick}
-					/>
+					<Input label="Prompt" id="hello" value={prompt} onChange={handleChange} />
+					<Button type="submit" theme="primary" isInverted="true" label="Submit" handleClick={handleClick} />
 				</form>
 
 				<br />
@@ -80,57 +69,26 @@ const Example = () => {
 
 			<Tile themes={['shadow']}>
 				I'm shadow tile
-				<CheckboxRadio
-					id="checkbox 1"
-					type="checkbox"
-					label="this is a checkbox"
-					checked={checkboxValue}
-					onChange={onCheckboxChange}
-				/>
+				<CheckboxRadio id="checkbox 1" type="checkbox" label="this is a checkbox" checked={checkboxValue} onChange={onCheckboxChange} />
 				<br />
 				<Tile>
-					<CheckboxRadio
-						id="world 1"
-						type="radio"
-						label="radio 1"
-						value="radio 1"
-						checked={radioValue === 'radio 1'}
-						onChange={onRadioChange}
-					/>
-					<CheckboxRadio
-						id="world 2"
-						type="radio"
-						label="radio 2"
-						value="radio 2"
-						checked={radioValue === 'radio 2'}
-						onChange={onRadioChange}
-					/>
-					<CheckboxRadio
-						id="world 3"
-						type="radio"
-						label="radio 3"
-						value="radio 3"
-						checked={radioValue === 'radio 3'}
-						onChange={onRadioChange}
-					/>
+					<CheckboxRadio id="world 1" type="radio" label="radio 1" value="radio 1" checked={radioValue === 'radio 1'} onChange={onRadioChange} />
+					<CheckboxRadio id="world 2" type="radio" label="radio 2" value="radio 2" checked={radioValue === 'radio 2'} onChange={onRadioChange} />
+					<CheckboxRadio id="world 3" type="radio" label="radio 3" value="radio 3" checked={radioValue === 'radio 3'} onChange={onRadioChange} />
 				</Tile>
 			</Tile>
 
 			<br />
 			<br />
 
-			<Tile
-				themes={['small', 'clickable']}
-				handleClick={openModal}>
+			<Tile themes={['small', 'clickable']} handleClick={openModal}>
 				Hi! I am small but clickable
 			</Tile>
 
 			<br />
 			<br />
 
-			<Modal
-				show={showModal}
-				onHide={closeModal}>
+			<Modal show={showModal} onHide={closeModal}>
 				<div>Hello World</div>
 			</Modal>
 		</>

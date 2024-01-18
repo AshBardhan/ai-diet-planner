@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './Home.scss';
 import {useNavigate} from 'react-router-dom';
 import introImage from '../Images/home-calories.png';
 import aboutImage from '../Images/about-us.jpg';
@@ -26,8 +26,7 @@ export default function Home() {
 		},
 		{
 			key: 'Balanced Diet',
-			content:
-				'Customized diet plans are tailored to an individuals unique nutritional needs, preferences, and goals, ensuring that they are receiving the right nutrients in the right amounts.',
+			content: 'Customized diet plans are tailored to an individuals unique nutritional needs, preferences, and goals, ensuring that they are receiving the right nutrients in the right amounts.',
 			photo: require('../Images/customise.png'),
 		},
 		{
@@ -70,26 +69,15 @@ export default function Home() {
 								Shaping your diets and lifestyle <span> with cutting-edge technology</span>
 							</h1>
 							<p>
-								Say goodbye to generic diets and hello to a personalized nutrition plan. With our AI-powered system, you can finally achieve the body you've always wanted while
-								enjoying delicious, healthy meals that are easy to prepare and follow. <br />
+								Say goodbye to generic diets and hello to a personalized nutrition plan. With our AI-powered system, you can finally achieve the body you've always wanted while enjoying delicious, healthy meals that are easy to prepare and follow. <br />
 								Get started on your journey towards a healthier, happier you today!
 							</p>
-							<Button
-								type="button"
-								size="giant"
-								theme="primary"
-								isInverted="true"
-								label="Join Us &rarr;"
-								handleClick={routeChange}
-							/>
+							<Button type="button" size="giant" theme="primary" isInverted="true" label="Join Us &rarr;" handleClick={routeChange} />
 						</div>
 					</div>
 					<div className="home-image">
 						<div className="intro-image">
-							<img
-								src={introImage}
-								alt="intro"
-							/>
+							<img src={introImage} alt="intro" />
 						</div>
 					</div>
 				</section>
@@ -103,10 +91,7 @@ export default function Home() {
 						{cards.map((nutrientData) => (
 							<div className="card-container">
 								<div className="card-image">
-									<img
-										src={nutrientData.photo}
-										alt="quick-tiles"
-									/>
+									<img src={nutrientData.photo} alt="quick-tiles" />
 								</div>
 								<h6 className="card-title">{nutrientData.key}</h6>
 								<p className="card-desc">{nutrientData.content}</p>
@@ -120,10 +105,7 @@ export default function Home() {
 					<section className="about-container">
 						<div className="about-image-container">
 							<div className="about-image">
-								<img
-									src={aboutImage}
-									alt="about"
-								/>
+								<img src={aboutImage} alt="about" />
 							</div>
 						</div>
 						<div className="about-intro-container">
@@ -134,15 +116,8 @@ export default function Home() {
 									<span> What we do & How we do it</span>
 								</h2>
 								<p>At Shape, We believe that everyone deserves access to personalized nutrition plans that take into account their unique needs and preferences. </p>
-								<p>
-									That's why we have developed an innovative AI-powered system that analyzes your personal data, including your dietary restrictions, fitness goals, and food
-									preferences, to create a custom meal plan just for you.
-								</p>
-								<p>
-									{' '}
-									Our team of experts in the fields of nutrition and AI work tirelessly to ensure that our algorithm stays up-to-date with the latest research and advances in the
-									industry.
-								</p>
+								<p>That's why we have developed an innovative AI-powered system that analyzes your personal data, including your dietary restrictions, fitness goals, and food preferences, to create a custom meal plan just for you.</p>
+								<p> Our team of experts in the fields of nutrition and AI work tirelessly to ensure that our algorithm stays up-to-date with the latest research and advances in the industry.</p>
 							</div>
 						</div>
 					</section>
@@ -157,10 +132,7 @@ export default function Home() {
 						{benefits.map((nutrientData) => (
 							<div className="benefits-container">
 								<div className="benefits-image">
-									<img
-										src={nutrientData.photo}
-										alt="benefits-tiles"
-									/>
+									<img src={nutrientData.photo} alt="benefits-tiles" />
 								</div>
 								<div className="benefits-title">{nutrientData.key}</div>
 								<div className="benefits-desc">{nutrientData.content}</div>
@@ -173,10 +145,7 @@ export default function Home() {
 				<section className="steps-container">
 					<div className="steps-image-container">
 						<div className="steps-image">
-							<img
-								src={charImage}
-								alt="steps"
-							/>
+							<img src={charImage} alt="steps" />
 						</div>
 					</div>
 					<div className="steps-intro-container">
@@ -188,10 +157,7 @@ export default function Home() {
 							<ul className="steps-list">
 								<li>
 									<h5>1. Create</h5>
-									<p>
-										Tell us about yourself, your diet preferences, and your goals. We'll create meal plans specific to your needs in seconds! You always have the option to tweak
-										your settings later.
-									</p>
+									<p>Tell us about yourself, your diet preferences, and your goals. We'll create meal plans specific to your needs in seconds! You always have the option to tweak your settings later.</p>
 								</li>
 								<li>
 									<h5>2. Collect</h5>
@@ -199,27 +165,14 @@ export default function Home() {
 								</li>
 								<li>
 									<h5>3. Cook</h5>
-									<p>
-										Enjoy making and eating delicious meals without the stress of planning. Not only will you know you're eating better, you'll have more time and energy for other
-										things.
-									</p>
+									<p>Enjoy making and eating delicious meals without the stress of planning. Not only will you know you're eating better, you'll have more time and energy for other things.</p>
 								</li>
 								<li>
 									<h5>4. Conquer</h5>
-									<p>
-										Make adjustments to your preferences, discover new meals, or put your favorites on repeat. Review nutrition stats, track weight progress, and achieve your
-										goals!
-									</p>
+									<p>Make adjustments to your preferences, discover new meals, or put your favorites on repeat. Review nutrition stats, track weight progress, and achieve your goals!</p>
 								</li>
 							</ul>
-							<Button
-								type="button"
-								size="giant"
-								theme="primary"
-								isInverted="true"
-								label="Get Started &rarr;"
-								handleClick={routeChange}
-							/>
+							<Button type="button" size="giant" theme="primary" isInverted="true" label="Get Started &rarr;" handleClick={routeChange} />
 						</div>
 					</div>
 				</section>

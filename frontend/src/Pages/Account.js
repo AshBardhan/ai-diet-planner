@@ -1,5 +1,5 @@
 import React from 'react';
-import './Account.css';
+import './Account.scss';
 import Tile from '../Components/Tile';
 import Button from '../Components/Button';
 import PhysicalProfile from '../Components/PhysicalProfile';
@@ -19,10 +19,7 @@ export default function Account() {
 				<h1>Your Profile</h1>
 				<div className="account-wrapper">
 					<div className="account-image">
-						<img
-							src={profilePicture}
-							alt="profile"
-						/>
+						<img src={profilePicture} alt="profile" />
 					</div>
 					<div className="account-form">
 						<PhysicalProfile onFormSubmit={() => routeChange('/meal-planner')} />
@@ -31,13 +28,7 @@ export default function Account() {
 						<Tile>
 							<h2>Current Plan</h2>
 							<p>You are currently using our FREE Version</p>
-							<Button
-								theme="positive"
-								size="big"
-								isInverted="true"
-								label="Buy PRO Plan"
-								handleClick={() => routeChange('/plans')}
-							/>
+							<Button theme="positive" size="big" isInverted="true" label="Buy PRO Plan" handleClick={() => routeChange('/plans')} />
 						</Tile>
 					</div>
 				</div>

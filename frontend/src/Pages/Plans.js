@@ -1,5 +1,4 @@
 import React from 'react';
-import './Plans.css';
 import Tile from '../Components/Tile';
 import Button from '../Components/Button';
 import crown from '../Images/crown.png';
@@ -40,10 +39,7 @@ export default function Plans() {
 									<span>Expert nutritional advice</span>
 								</li>
 							</ul>
-							<Button
-								size="giant"
-								label="Get Started"
-							/>
+							<Button size="giant" label="Get Started" />
 						</div>
 					</Tile>
 				</div>
@@ -51,13 +47,7 @@ export default function Plans() {
 					<Tile themes={['shadow']}>
 						<div style={{padding: '20px 0'}}>
 							<h4 style={{marginBottom: 0, fontSize: '32px', color: '#3892e3'}}>
-								<img
-									src={crown}
-									alt="crown"
-									width="30px"
-									height="30px"
-									style={{marginRight: '5px', marginLeft: '-35px'}}
-								/>
+								<img src={crown} alt="crown" width="30px" height="30px" style={{marginRight: '5px', marginLeft: '-35px'}} />
 								PRO
 							</h4>
 							<h2 style={{fontSize: '54px', color: '#3892e3', fontWeight: 600}}>
@@ -85,12 +75,7 @@ export default function Plans() {
 									<span>Expert nutritional advice</span>
 								</li>
 							</ul>
-							<Button
-								theme="primary"
-								size="giant"
-								isInverted="true"
-								label="Upgrade to PRO Plan"
-							/>
+							<Button theme="primary" size="giant" isInverted="true" label="Upgrade to PRO Plan" />
 						</div>
 					</Tile>
 				</div>

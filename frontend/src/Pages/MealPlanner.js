@@ -1,5 +1,5 @@
 import React from 'react';
-import './MealPlanner.css';
+import './MealPlanner.scss';
 import axios from 'axios';
 import MealPlan from '../Components/MealPlan';
 import {Days} from '../shared/days';
@@ -190,30 +190,21 @@ const MealPlanner = () => {
 			<div className="container">
 				<div className="dashboard">
 					<h2>Daily Nutrition Requirements</h2>
-					<p>
-						Our program takes a comprehensive approach to nutrition, considering not only the quantity of food you consume but also the quality of the nutrients you consume. We provide you
-						with a personalized meal plan that is balanced, delicious, and tailored to your specific needs. Our program will give you the knowledge and tools you need to succeed.
-					</p>
+					<p>Our program takes a comprehensive approach to nutrition, considering not only the quantity of food you consume but also the quality of the nutrients you consume. We provide you with a personalized meal plan that is balanced, delicious, and tailored to your specific needs. Our program will give you the knowledge and tools you need to succeed.</p>
 					<div className="daily-nutrition-wrapper">
 						<div className="chart-container">
 							<div className="chart">
-								<div
-									className="chart-info"
-									style={{top: '110px', right: '45px'}}>
+								<div className="chart-info" style={{top: '110px', right: '45px'}}>
 									Carbs
 									<br />
 									40%
 								</div>
-								<div
-									className="chart-info"
-									style={{top: '180px', left: '85px'}}>
+								<div className="chart-info" style={{top: '180px', left: '85px'}}>
 									Fat
 									<br />
 									35%
 								</div>
-								<div
-									className="chart-info"
-									style={{top: '60px', left: '55px'}}>
+								<div className="chart-info" style={{top: '60px', left: '55px'}}>
 									Protein
 									<br />
 									25%
@@ -225,14 +216,10 @@ const MealPlanner = () => {
 								<div className="nutrients-list">
 									{nutrientList.map((nutrientData) => (
 										<div className="stat-pair stat-pair--vertical">
-											<div
-												className="stat-value"
-												style={{color: nutrientData.color}}>
+											<div className="stat-value" style={{color: nutrientData.color}}>
 												{nutrientData.value}
 											</div>
-											<div
-												className="stat-key"
-												style={{color: nutrientData.color}}>
+											<div className="stat-key" style={{color: nutrientData.color}}>
 												{nutrientData.key}
 											</div>
 										</div>
@@ -242,23 +229,10 @@ const MealPlanner = () => {
 						</div>
 					</div>
 					<h2>Weekly Meal Planner</h2>
-					<p>
-						Welcome to our weekly diet program, designed to provide you with delicious and nutritious meals tailored to your specific dietary needs. We provide a personalized meal plan to
-						you for the week, complete with recipes and grocery lists. Our program takes into account your dietary restrictions, preferences, and health goals, ensuring that you receive
-						meals that are both satisfying and beneficial for your body.
-					</p>
-					<MealPlan
-						dailyMeals={mealList}
-						onClickMeal={onClickMeal}
-						updateMealStatus={updateMealStatus}
-						sendFoodAlternative={sendFoodAlternative}
-						sendMealAlternative={sendMealAlternative}
-						showFood={showFood}
-					/>
+					<p>Welcome to our weekly diet program, designed to provide you with delicious and nutritious meals tailored to your specific dietary needs. We provide a personalized meal plan to you for the week, complete with recipes and grocery lists. Our program takes into account your dietary restrictions, preferences, and health goals, ensuring that you receive meals that are both satisfying and beneficial for your body.</p>
+					<MealPlan dailyMeals={mealList} onClickMeal={onClickMeal} updateMealStatus={updateMealStatus} sendFoodAlternative={sendFoodAlternative} sendMealAlternative={sendMealAlternative} showFood={showFood} />
 
-					<Modal
-						show={showModal}
-						onHide={closeModal}>
+					<Modal show={showModal} onHide={closeModal}>
 						{selectedFood.isLoading ? (
 							<div>Loading Food Details...</div>
 						) : (

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Onboarding.css';
 import PhysicalProfile from '../Components/PhysicalProfile';
 import {useNavigate} from 'react-router-dom';
 
