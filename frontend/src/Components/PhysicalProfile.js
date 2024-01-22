@@ -1,4 +1,4 @@
-import React from 'react';
+import {useImmer} from 'use-immer';
 import './PhysicalProfile.scss';
 import Input from './Input';
 import CheckboxRadio from './CheckboxRadio';
@@ -6,7 +6,7 @@ import Button from './Button';
 import SelectBox from './Selectbox';
 
 export default function PhysicalProfile({onFormSubmit}) {
-	const [state, setState] = React.useState({
+	const [state, setState] = useImmer({
 		fullName: 'John Doe',
 		age: 31,
 		gender: 'male',
@@ -38,10 +38,8 @@ export default function PhysicalProfile({onFormSubmit}) {
 	];
 
 	const handleChange = (evt) => {
-		const value = evt.target.value;
-		setState({
-			...state,
-			[evt.target.name]: value,
+		setState((draft) => {
+			draft[evt.target.name] = evt.target.value;
 		});
 	};
 
